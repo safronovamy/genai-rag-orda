@@ -1,0 +1,809 @@
+[
+  {
+    "id": "product_frebits_grind_vita_cleansing_balm",
+    "type": "product",
+    "brand": "FREBITS",
+    "name": "Grind Vita Cleansing Balm",
+    "category": "cleansing_balm",
+    "step": 1,
+    "usage_time": ["evening"],
+    "removes_spf": true,
+    "skin_type": ["normal", "dry", "combination"],
+    "concerns": ["dullness", "uneven_tone", "dryness", "early_aging"],
+    "actives": [
+      {
+        "name": "Ceramides",
+        "functions": ["strengthen_skin_barrier", "reduce_transepidermal_water_loss"]
+      },
+      {
+        "name": "Sea buckthorn oil",
+        "functions": ["brightening", "antioxidant", "supports_firmness"],
+        "rich_in": ["vitamin E", "vitamin C"]
+      },
+      {
+        "name": "Vitamin C",
+        "functions": ["prevents_photoaging", "fades_dark_spots", "evens_tone"]
+      },
+      {
+        "name": "Hyaluronic acid",
+        "functions": ["deep_hydration"]
+      },
+      {
+        "name": "Vitamin E (Tocopherol)",
+        "functions": ["antioxidant", "photoprotection_support"]
+      },
+      {
+        "name": "AHA + PHA + LHA acids",
+        "functions": ["gentle_exfoliation", "sebum_control", "smoothing_texture"]
+      }
+    ],
+    "text": "Oil-based balm cleanser enriched with ceramides, sea buckthorn oil, vitamin C and multi-acid blend. Melts makeup, SPF and impurities while supporting barrier function, brightening and gently refining texture. Suitable as a first cleanse in the evening, especially for dull, dehydrated or uneven skin.",
+    "how_to_use": "Apply a small amount to dry skin, massage until the texture softens, then add warm water to emulsify into a milky texture and rinse thoroughly.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_glow_lemon_vitamin_toner",
+    "type": "product",
+    "brand": "Glow",
+    "name": "Lemon Vitamin Toner",
+    "category": "toner",
+    "step": 2,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "combination", "oily"],
+    "concerns": ["dullness", "pigmentation", "post_acne_marks"],
+    "actives": [
+      {
+        "name": "Niacinamide (Vitamin B3)",
+        "functions": [
+          "barrier_support",
+          "brightening",
+          "wrinkle_improvement",
+          "improves_elasticity",
+          "reduces_transepidermal_water_loss"
+        ]
+      },
+      {
+        "name": "Lemon water 153400 ppm",
+        "functions": ["source_of_vitamin_c", "antioxidant", "brightening", "pore_tightening"]
+      },
+      {
+        "name": "Multivitamin complex",
+        "functions": ["restores_radiance", "protects_from_oxidative_stress"]
+      },
+      {
+        "name": "10-type hyaluronic acid complex",
+        "functions": ["multi_level_hydration"]
+      }
+    ],
+    "text": "Brightening hydrating toner with niacinamide, high-content lemon water, multivitamin complex and a blend of ten molecular weights of hyaluronic acid. Targets dullness, uneven tone and post-acne marks while reinforcing the barrier.",
+    "how_to_use": "Apply to a cotton pad and swipe along massage lines, or use as a mini-sheet mask by soaking pads and leaving on the skin for 5–10 minutes. Layer 2–4 times depending on skin condition.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_findive_pdrn_cica_exosome_serum",
+    "type": "product",
+    "brand": "FINDIVE",
+    "name": "PDRN Cica Exosome Serum",
+    "category": "serum",
+    "step": 3,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "dry", "combination", "sensitive"],
+    "concerns": ["redness", "barrier_damage", "fine_lines", "pigmentation"],
+    "actives": [
+      {
+        "name": "Astaxanthin",
+        "functions": ["strong_antioxidant", "improves_elasticity", "reduces_inflammation"]
+      },
+      {
+        "name": "TECA-biom, Blue Cluster marine water, xylitol, erythritol",
+        "functions": ["soothing", "barrier_reinforcement", "moisturizing"]
+      },
+      {
+        "name": "PDRN 1%",
+        "functions": ["cell_regeneration", "dermal_strengthening", "improves_firmness"]
+      },
+      {
+        "name": "Centella asiatica exosomes 1000 ppm",
+        "functions": ["signal_delivery", "wound_healing_support", "regeneration"]
+      },
+      {
+        "name": "Oligo-hyaluronic acid",
+        "functions": ["deep_hydration", "stimulates_cell_activity"]
+      },
+      {
+        "name": "Melaway 1% plant complex",
+        "functions": ["brightening", "melanin_suppression", "antioxidant"]
+      }
+    ],
+    "text": "Regenerating serum combining PDRN, centella exosomes, astaxanthin and soothing humectants. Designed to repair the barrier, calm sensitivity, improve firmness and fade pigmentation while providing deep hydration.",
+    "how_to_use": "Dispense 2–3 pumps and spread over the face. For targeted care, apply more on problem areas and let absorb before cream.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_rebloom_luxury_aquvo_tension_cream",
+    "type": "product",
+    "brand": "Rebloom",
+    "name": "Luxury Aquvo Tension Cream",
+    "category": "cream",
+    "step": 4,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "dry", "dehydrated"],
+    "concerns": ["loss_of_elasticity", "dehydration", "dullness"],
+    "actives": [
+      {
+        "name": "Deep sea water",
+        "functions": ["mineral_supply", "barrier_support", "anti_inflammatory", "hydrating"]
+      },
+      {
+        "name": "Allantoin",
+        "functions": ["soothing", "regeneration", "anti_irritant", "antioxidant_support"]
+      },
+      {
+        "name": "5-type hyaluronic acid complex",
+        "functions": ["multi_layer_hydration", "protective_film"]
+      },
+      {
+        "name": "Jade water (Ok Cheon extract)",
+        "functions": ["alkaline_mineral_water", "tone_improvement", "microcirculation_boost", "detox_effect"]
+      }
+    ],
+    "text": "Rich but bouncy cream with mineral-rich deep sea and jade waters, allantoin and multi-weight hyaluronic acid. Intensely hydrates, improves microcirculation and elasticity, leaving the skin plump and smooth.",
+    "how_to_use": "Apply a small amount and pat over the face as the last step of basic care. Reapply to dry zones as needed.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_la_pianta_youth_enhance_eye_cream",
+    "type": "product",
+    "brand": "La Pianta",
+    "name": "Youth Enhance Total Recovery Eye Cream",
+    "category": "eye_cream",
+    "step": 5,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "dry", "mature", "sensitive"],
+    "concerns": ["fine_lines", "dark_circles", "dryness_around_eyes"],
+    "actives": [
+      {
+        "name": "Six ceramides",
+        "functions": ["intensive_barrier_support", "long_lasting_hydration"]
+      },
+      {
+        "name": "Adenosine",
+        "functions": ["collagen_synthesis_support", "wrinkle_smoothing"]
+      },
+      {
+        "name": "Number6 patented avocado-based complex",
+        "functions": ["reduces_dark_circles", "supports_regeneration", "antioxidant_protection"]
+      },
+      {
+        "name": "Coenzyme Q10",
+        "functions": ["antioxidant", "improves_elasticity", "collagen_support", "anti_inflammatory"]
+      },
+      {
+        "name": "Astaxanthin",
+        "functions": ["strong_antioxidant", "pigmentation_control", "anti_dryness"]
+      },
+      {
+        "name": "Vitamin E (Tocopherol)",
+        "functions": ["photoprotection_support", "wrinkle_smoothing"]
+      },
+      {
+        "name": "Niacinamide",
+        "functions": ["brightening", "barrier_support", "anti_wrinkle"]
+      },
+      {
+        "name": "Hyaluronic acid",
+        "functions": ["hydration"]
+      },
+      {
+        "name": "Peptide complex (incl. DBD500, Acetyl Hexapeptide-8)",
+        "functions": ["myorelaxing_effect", "expression_line_reduction", "texture_smoothing"]
+      }
+    ],
+    "text": "Anti-aging eye cream combining ceramides, niacinamide, adenosine, potent antioxidants and a multi-peptide complex. Targets fine lines, dark circles and dehydration while reinforcing the delicate eye-area barrier.",
+    "how_to_use": "Apply a small amount around the orbital bone and gently tap with fingertips. Do not apply directly on the mobile eyelid.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_arocell_super_collagen_wrapping_mask",
+    "type": "product",
+    "brand": "AROCELL",
+    "name": "Super Collagen Wrapping Mask",
+    "category": "peel_off_mask",
+    "step": 6,
+    "usage_time": ["evening"],
+    "skin_type": ["normal", "dry", "mature"],
+    "concerns": ["loss_of_firmness", "dullness", "texture_irregularities", "pigmentation"],
+    "actives": [
+      {
+        "name": "MELAVEIL",
+        "functions": ["brightening", "pigmentation_control", "radiance_boost"]
+      },
+      {
+        "name": "Hydrolyzed collagen",
+        "functions": ["surface_firming", "improves_texture"]
+      },
+      {
+        "name": "Low molecular collagen",
+        "functions": ["deeper_support_for_dermis", "improves_density"]
+      },
+      {
+        "name": "Three types of plant collagen",
+        "functions": ["elasticity_support", "anti_aging"]
+      },
+      {
+        "name": "Niacinamide",
+        "functions": ["brightening", "barrier_support"]
+      },
+      {
+        "name": "PHA acid",
+        "functions": ["gentle_exfoliation", "enhances_AHA_effects_with_less_irritation"]
+      },
+      {
+        "name": "Nano collagen",
+        "functions": ["fills_micro_irregularities", "smoothes_microrelief"]
+      }
+    ],
+    "text": "Peel-off collagen mask with multiple collagen sources, niacinamide, PHA and a brightening MELAVEIL complex. Aims to improve firmness, even tone and refine texture while adding radiance.",
+    "how_to_use": "Spread an even layer over the face, avoiding eyes and lips. Leave 20–30 minutes until a transparent film forms, then peel off from the edges. Can also be used on neck and hands.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_feld_apotheke_ecporin_sheet_mask",
+    "type": "product",
+    "brand": "Feld Apotheke",
+    "name": "EcPorin 10000 Sheet Mask",
+    "category": "sheet_mask",
+    "step": 6,
+    "usage_time": ["evening"],
+    "skin_type": ["sensitive", "normal", "dry"],
+    "concerns": ["redness", "barrier_damage", "dehydration"],
+    "actives": [
+      {
+        "name": "Caprylyl glycol",
+        "functions": ["antibacterial", "moisturizing", "supports_regeneration"]
+      },
+      {
+        "name": "EcPorin 10000 ppm",
+        "functions": ["barrier_strengthening", "reduces_sensitivity", "soothing"]
+      },
+      {
+        "name": "Natural surfactant",
+        "functions": ["moisture_retention", "barrier_support"]
+      },
+      {
+        "name": "Hyaluronic acid",
+        "functions": ["hydration"]
+      },
+      {
+        "name": "Houttuynia cordata extract",
+        "functions": ["anti_inflammatory", "soothing", "barrier_repair"]
+      },
+      {
+        "name": "Marine fermented complex & Salicornia extract",
+        "functions": ["supports_skin_immune_barrier", "regulates_immune_responses"]
+      },
+      {
+        "name": "Centella asiatica",
+        "functions": ["microcirculation_support", "regeneration", "anti_aging"]
+      }
+    ],
+    "text": "Soothing sheet mask for sensitive, irritated skin with EcPorin, centella, marine fermented complex and hyaluronic acid. Helps quickly calm redness, reinforce the barrier and deeply hydrate.",
+    "how_to_use": "Remove protective mesh, apply sheet to the face for 10–20 minutes, then remove and gently pat remaining essence into face and neck.",
+    "source": "82box_spring_box"
+  },
+  {
+    "id": "product_bebalance_idebenone_microfiber_mask",
+    "type": "product",
+    "brand": "Be'Balance",
+    "name": "Idebenone Microfiber Mask",
+    "category": "sheet_mask",
+    "step": 6,
+    "usage_time": ["evening"],
+    "skin_type": ["normal", "dry", "mature"],
+    "concerns": ["wrinkles", "dullness", "photoaging"],
+    "actives": [
+      {
+        "name": "Botanical extract complex",
+        "functions": ["vitamin_mineral_supply", "regeneration", "strengthens_epidermis"]
+      },
+      {
+        "name": "Idebenone",
+        "functions": ["strong_antioxidant", "reduces_wrinkles", "protects_from_uv_and_pollution", "boosts_collagen"]
+      },
+      {
+        "name": "Allantoin",
+        "functions": ["regeneration", "anti_irritant"]
+      },
+      {
+        "name": "Niacinamide",
+        "functions": ["brightening", "pore_refining", "anti_inflammatory"]
+      },
+      {
+        "name": "Ceramide NP",
+        "functions": ["barrier_repair", "long_last_moisturizing"]
+      }
+    ],
+    "text": "Anti-aging microfiber mask rich in idebenone, botanicals, niacinamide, allantoin and ceramides. Fights signs of photoaging, improves tone and texture, and deeply moisturizes.",
+    "how_to_use": "Apply on cleansed, toned skin for 10–20 minutes, then remove and press remaining essence into the skin. Finish with cream if needed.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_11huesday_despot_powder_ampoule_c",
+    "type": "product",
+    "brand": "11Huesday",
+    "name": "Despot Powder Ampoule C",
+    "category": "vitamin_c_ampoule",
+    "step": 3,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "combination", "oily"],
+    "concerns": ["pigmentation", "post_acne", "dullness", "fine_lines"],
+    "actives": [
+      {
+        "name": "Glutathione",
+        "functions": ["strong_antioxidant", "brightening", "collagen_support", "reduces_swelling"]
+      },
+      {
+        "name": "Ferulic acid + Vitamin E",
+        "functions": ["photo_protection_boost", "anti_wrinkle"]
+      },
+      {
+        "name": "Vitamin C (Ascorbic acid)",
+        "functions": ["prevents_photoaging", "brightening", "fine_line_reduction"]
+      },
+      {
+        "name": "Five types of hyaluronic acid",
+        "functions": ["multi_layer_hydration"]
+      },
+      {
+        "name": "Niacinamide 2%",
+        "functions": ["brightening", "barrier_support", "wrinkle_care"]
+      }
+    ],
+    "text": "Highly active brightening ampoule combining vitamin C, glutathione, ferulic acid, vitamin E, niacinamide and multi-weight hyaluronic acid. Targets pigmentation, post-acne marks and early signs of aging while keeping the skin hydrated.",
+    "how_to_use": "Apply 2–3 drops to the face and gently pat in. Use once or twice daily. Always follow with SPF during the whole period of use.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_bebalance_salmon_da_microfiber_mask",
+    "type": "product",
+    "brand": "Be'Balance",
+    "name": "Salmon DA Microfiber Mask",
+    "category": "sheet_mask",
+    "step": 6,
+    "usage_time": ["evening"],
+    "skin_type": ["normal", "dry", "mature"],
+    "concerns": ["loss_of_firmness", "dehydration", "texture"],
+    "actives": [
+      {
+        "name": "Seven peptides",
+        "functions": ["regeneration", "anti_aging", "barrier_support"]
+      },
+      {
+        "name": "Salicornia europaea extract",
+        "functions": ["brightening", "nourishing", "antioxidant", "moisture_retention"]
+      },
+      {
+        "name": "Salmon caviar extract",
+        "functions": ["deep_hydration", "supports_glycosaminoglycans", "improves_texture"]
+      },
+      {
+        "name": "Salmon DNA (PDRN)",
+        "functions": ["nutrition", "regeneration", "energy_boost"]
+      },
+      {
+        "name": "Sugar cane extract",
+        "functions": ["soothing", "protects_from_environment", "hydrating"]
+      },
+      {
+        "name": "Peptide complex",
+        "functions": ["collagen_synthesis_support", "elasticity_improvement"]
+      }
+    ],
+    "text": "Firming mask with salmon DNA, caviar extract, peptides and salicornia to replenish moisture, smooth texture and improve resilience of aging or stressed skin.",
+    "how_to_use": "Apply on cleansed, toned skin, leave for 10–20 minutes, then remove and pat in remaining essence. Follow with cream if needed.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_bebalance_pro_b5_microfiber_mask",
+    "type": "product",
+    "brand": "Be'Balance",
+    "name": "Pro B5 Microfiber Mask",
+    "category": "sheet_mask",
+    "step": 6,
+    "usage_time": ["evening"],
+    "skin_type": ["dry", "sensitive", "barrier_impaired"],
+    "concerns": ["barrier_damage", "dryness", "irritation"],
+    "actives": [
+      {
+        "name": "Ceramide complex",
+        "functions": ["restores_barrier", "protects_from_environment", "smoothes_skin"]
+      },
+      {
+        "name": "Panthenol (Vitamin B5)",
+        "functions": ["soothing", "regeneration", "strengthens_collagen_fibers"]
+      },
+      {
+        "name": "Eight types of hyaluronic acid",
+        "functions": ["deep_multi_layer_hydration"]
+      },
+      {
+        "name": "Patented fruit extract complex",
+        "functions": ["protective", "calming"]
+      }
+    ],
+    "text": "Barrier-repairing mask with ceramides, panthenol, a fruit complex and multi-weight hyaluronic acid. Ideal for sensitized, dry or weather-stressed skin.",
+    "how_to_use": "Use after toner and/or serum. Apply mask for 10–20 minutes, remove and press in remaining essence, then seal with cream.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_needly_mild_cleansing_gel",
+    "type": "product",
+    "brand": "NEEDLY",
+    "name": "Mild Cleansing Gel",
+    "category": "gel_cleanser",
+    "step": 1,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "combination", "oily", "sensitive"],
+    "concerns": ["excess_sebum", "clogged_pores", "acne_prone"],
+    "actives": [
+      {
+        "name": "Caprylyl glycol",
+        "functions": ["antibacterial", "antiseptic", "regenerating"]
+      },
+      {
+        "name": "Quillaja bark extract",
+        "functions": ["natural_cleansing_agent", "helps_keep_skin_hydrated"]
+      },
+      {
+        "name": "Glycerin",
+        "functions": ["humectant", "moisture_lock"]
+      },
+      {
+        "name": "Sodium cocoyl glutamate",
+        "functions": ["gentle_surfacant", "softening", "reduces_irritation_risk"]
+      }
+    ],
+    "text": "Gentle gel cleanser with mild surfactants, quillaja extract, glycerin and caprylyl glycol. Removes impurities without stripping, suitable for daily use even on sensitive or acne-prone skin.",
+    "how_to_use": "Lather a small amount with water, massage over face for 20–30 seconds focusing on problem areas, then rinse with lukewarm water. Can also be used on acne-prone body zones.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_11huesday_control_balancing_emulsion",
+    "type": "product",
+    "brand": "11Huesday",
+    "name": "Control Balancing Emulsion",
+    "category": "emulsion",
+    "step": 3,
+    "usage_time": ["morning", "evening"],
+    "skin_type": ["normal", "combination", "dry"],
+    "concerns": ["dehydration", "mild_sensitivity", "early_aging"],
+    "actives": [
+      {
+        "name": "Sodium hyaluronate",
+        "functions": ["hydration", "smoothes_fine_lines"]
+      },
+      {
+        "name": "Panthenol (Vitamin B5)",
+        "functions": ["soothing", "regeneration", "strengthens_collagen"]
+      },
+      {
+        "name": "Jojoba seed oil",
+        "functions": ["nourishing", "barrier_support", "lifting_effect"]
+      },
+      {
+        "name": "Ceramide NP",
+        "functions": ["long_term_moisture", "barrier_repair"]
+      },
+      {
+        "name": "Multi Ex BSASM Plus",
+        "functions": ["soothing", "anti_inflammatory", "immunomodulating"]
+      },
+      {
+        "name": "Witch hazel water",
+        "functions": ["pore_tightening", "anti_inflammatory", "antioxidant"]
+      }
+    ],
+    "text": "Balancing emulsion that combines humectants, jojoba oil, ceramides, panthenol and a patented plant complex to hydrate, calm and reinforce the barrier.",
+    "how_to_use": "Apply a small amount after toner or serum and massage in. Follow with cream if extra moisture is needed.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_bqcell_lipotox_core_cream",
+    "type": "product",
+    "brand": "BQCELL",
+    "name": "Lipotox Core Cream",
+    "category": "cream",
+    "step": 4,
+    "usage_time": ["evening"],
+    "skin_type": ["normal", "dry", "mature"],
+    "concerns": ["wrinkles", "loss_of_firmness", "post_acne"],
+    "actives": [
+      {
+        "name": "Aloe vera leaf extract",
+        "functions": ["anti_inflammatory", "regeneration", "soothing"]
+      },
+      {
+        "name": "Adenosine",
+        "functions": ["anti_wrinkle", "collagen_synthesis_support"]
+      },
+      {
+        "name": "Epidermal growth factors",
+        "functions": ["stimulates_cell_division", "collagen_synthesis"]
+      },
+      {
+        "name": "Fermented soybean extract",
+        "functions": ["toning", "post_acne_recovery", "anti_inflammatory"]
+      },
+      {
+        "name": "Niacinamide",
+        "functions": ["brightening", "pore_refining", "anti_inflammatory"]
+      },
+      {
+        "name": "Green tea extract",
+        "functions": ["antioxidant", "anti_pollution", "soothing"]
+      },
+      {
+        "name": "Alloferon-1",
+        "functions": ["immune_modulation_support"]
+      },
+      {
+        "name": "Hydrolyzed collagen complex",
+        "functions": ["firming", "elasticity_support"]
+      },
+      {
+        "name": "Fucus vesiculosus extract",
+        "functions": ["mineral_supply", "revitalizing"]
+      },
+      {
+        "name": "Hexapeptide-40",
+        "functions": ["anti_aging_peptide_support"]
+      }
+    ],
+    "text": "Rich anti-aging cream with growth factors, peptides, niacinamide, aloe and green tea to smooth wrinkles, support regeneration and improve overall resilience of the skin.",
+    "how_to_use": "Apply as the last step of evening care on face and neck.",
+    "source": "82box_other_box"
+  },
+  {
+    "id": "product_rawquest_echinacea_sun_stick_spf50",
+    "type": "product",
+    "brand": "RAWQUEST",
+    "name": "Echinacea Airy Sun Stick SPF50+ PA++++",
+    "category": "sunscreen",
+    "step": 4,
+    "usage_time": ["morning", "reapply_daytime"],
+    "skin_type": ["normal", "combination", "dry"],
+    "concerns": ["photoaging", "pigmentation", "sensitivity"],
+    "actives": [
+      {
+        "name": "Damask rose oil",
+        "functions": ["nourishing", "softening", "anti_inflammatory", "sebum_balancing"]
+      },
+      {
+        "name": "Echinacea purpurea extract",
+        "functions": ["immune_support", "brightening", "anti_acne", "antioxidant", "helps_hyaluronic_acid_effect"]
+      },
+      {
+        "name": "Vitamin E (Tocopherol)",
+        "functions": ["antioxidant", "supports_collagen"]
+      },
+      {
+        "name": "Palmarosa oil",
+        "functions": ["balancing", "soothing_aroma"]
+      }
+    ],
+    "text": "Lightweight stick sunscreen with echinacea, rose and palmarosa oils plus vitamin E. Provides high UV protection while nourishing and calming the skin, suitable for reapplication on the go.",
+    "how_to_use": "Glide generously over areas exposed to UV on face and body. Reapply every 2–3 hours during sun exposure.",
+    "source": "82box_spring_box"
+  },
+
+  {
+    "id": "rule_kbeauty_layering_basic",
+    "type": "rule",
+    "title": "Basic Korean-style layering order",
+    "text": "Korean routines build from the thinnest, water-based textures to the richest, occlusive ones. A simplified order is: oil cleanser or balm (in the evening, to remove makeup and SPF), then water-based cleanser if needed, then toner/essence to hydrate and restore pH, then serums/ampoules addressing specific concerns, then emulsion or cream to seal in moisture, eye cream if used, and finally sunscreen in the morning. Sheet masks, peeling toners and wash-off or peel-off masks are considered additional care and are used a few times a week instead of, or between, other steps rather than every day."
+  },
+  {
+    "id": "rule_box_example_morning_routine_25_40",
+    "type": "routine",
+    "title": "Example morning routine (25–40, normal to combination skin) with box products",
+    "skin_type": ["normal", "combination"],
+    "age_range": "25-40",
+    "steps": [
+      "Cleanse with NEEDLY Mild Cleansing Gel to remove sweat and light impurities.",
+      "Hydrate and brighten with Glow Lemon Vitamin Toner; layer 2–3 times if skin feels tight.",
+      "Apply FINDIVE PDRN Cica Exosome Serum on face and neck to calm and strengthen the barrier.",
+      "Use La Pianta Youth Enhance Eye Cream around the orbital bone to target early fine lines and dark circles.",
+      "Seal everything with Rebloom Luxury Aquvo Tension Cream on drier areas or all over if needed.",
+      "Finish with RAWQUEST Echinacea Airy Sun Stick SPF50+ PA++++, reapplying every 2–3 hours in strong sun."
+    ],
+    "text": "Morning routine focused on radiance, barrier support and prevention of photoaging using the spring box products. Sheet masks and collagen peel-off mask are reserved for evenings 2–3 times a week."
+  },
+  {
+    "id": "rule_box_example_evening_routine_30plus",
+    "type": "routine",
+    "title": "Example evening routine (30+ with pigmentation and first wrinkles)",
+    "skin_type": ["normal", "dry", "combination"],
+    "age_range": "30-50",
+    "steps": [
+      "First cleanse with FREBITS Grind Vita Cleansing Balm to dissolve makeup and SPF.",
+      "Optionally follow with NEEDLY Mild Cleansing Gel if heavy makeup or very oily skin.",
+      "Tone with Glow Lemon Vitamin Toner to gently exfoliate and prepare the skin.",
+      "Use 11Huesday Despot Powder Ampoule C several evenings per week for hyperpigmentation and uneven tone.",
+      "On other evenings, especially when the skin feels sensitive, focus on FINDIVE PDRN Cica Exosome Serum for repair and soothing.",
+      "Apply La Pianta Youth Enhance Eye Cream.",
+      "Finish with Rebloom Luxury Aquvo Tension Cream or BQCELL Lipotox Core Cream on areas with visible wrinkles.",
+      "2–3 evenings a week, replace serum step with AROCELL Super Collagen Wrapping Mask or use Feld Apotheke EcPorin 10000 Sheet Mask for extra soothing, always finishing with cream."
+    ],
+    "text": "The routine alternates strong brightening actives with barrier-repair evenings to prevent irritation while addressing pigmentation and early wrinkles."
+  },
+  {
+    "id": "rule_component_compatibility_acids_retinoids_vitc",
+    "type": "rule",
+    "title": "Compatibility rules: acids, vitamin C and retinoids",
+    "text": "Strong exfoliating acids (AHA, BHA, high-percentage PHA) and retinoids both accelerate cell turnover and can easily over-irritate the skin if combined in one routine. For most users, it is safer to use exfoliating toners or masks on separate nights from retinol or retinal products, and to start each active 1–2 times per week, slowly increasing frequency. Pure ascorbic acid formulas and strong acids or retinoids can be used in the same overall regimen but ideally split by time: for example, vitamin C in the morning with sunscreen, retinoids or acid treatments on alternating evenings. Niacinamide, panthenol, ceramides and hyaluronic acid are good companions to buffer irritation in routines with acids or retinoids."
+  },
+  {
+    "id": "rule_component_selection_by_concern_and_age",
+    "type": "rule",
+    "title": "How to select actives by concern and age",
+    "text": "For teens and early twenties, the focus is on gentle cleansing, lightweight hydration and acne management: look for BHA, niacinamide and soothing ingredients like centella and panthenol, while avoiding overuse of strong acids and high-dose retinoids. From mid-twenties to mid-thirties, combine barrier-supporting ingredients (ceramides, hyaluronic acid, squalane) with brightening actives such as niacinamide, vitamin C and mild acids to address first pigmentation and dullness. In the late thirties and forties, introduce proven anti-aging ingredients like retinoids, peptides, growth factors, PDRN, collagen-supporting antioxidants (vitamin C, idebenone, astaxanthin, coenzyme Q10) and richer textures at night. At any age, daily broad-spectrum SPF and a consistent routine adapted to skin sensitivity are more important than chasing many actives at once."
+  },
+  {
+    "id": "rule_patch_test_and_introduction",
+    "type": "rule",
+    "title": "Patch testing and gradual introduction of products",
+    "text": "Before adding a new product with strong actives such as vitamin C, acids, retinoids or perfumes, it is recommended to patch test it on the inner elbow or a small area of the neck for several days to check for delayed reactions. Introduce only one new product at a time and use it for at least a week before adding another, so that any sensitivity is easier to trace. Start with lower frequency, such as 1–2 times a week for acids or retinoids, then gradually increase according to tolerance. If irritation, persistent burning or a rash appears, stop using the product and allow the barrier to recover with simple, fragrance-free hydrating and barrier-repairing care."
+  },
+  {
+  "id": "ingredient_niacinamide",
+  "type": "ingredient",
+  "title": "Niacinamide (Vitamin B3)",
+  "aliases": ["Niacinamide", "Vitamin B3", "Nicotinamide"],
+  "recommended_concentration": "2–10%",
+  "works_for": ["pigmentation", "post_acne", "oiliness", "pores", "barrier_damage", "fine_lines"],
+  "compatible_with": [
+    "hyaluronic acid",
+    "ceramides",
+    "panthenol",
+    "peptides",
+    "most SPF filters",
+    "vitamin C in many modern formulas"
+  ],
+  "avoid_with_same_routine": [],
+  "text": "Niacinamide is a versatile water-soluble B3 vitamin used to improve uneven tone, post-acne marks, enlarged pores and early signs of aging. It supports barrier function by increasing ceramide production, reduces transepidermal water loss and helps regulate excess sebum. It is generally well tolerated and can be used both morning and evening in most routines.",
+  "notes": "Start with lower concentrations (2–5%) for sensitive skin to reduce the risk of temporary redness or flushing."
+},
+{
+  "id": "ingredient_ceramides",
+  "type": "ingredient",
+  "title": "Ceramides",
+  "aliases": ["Ceramide NP", "Ceramide AP", "Ceramide EOP", "Ceramide complex"],
+  "recommended_concentration": "varies by formula",
+  "works_for": ["barrier_damage", "dryness", "sensitivity", "dehydration"],
+  "compatible_with": [
+    "all humectants",
+    "emollients",
+    "retinoids",
+    "acids",
+    "vitamin C",
+    "niacinamide",
+    "SPF"
+  ],
+  "avoid_with_same_routine": [],
+  "text": "Ceramides are lipids naturally present in the skin barrier. They fill in the gaps between skin cells, preventing moisture loss and protecting against external irritants. Products with ceramides are essential in routines for dry, sensitive or over-exfoliated skin and pair well with almost any active to buffer irritation.",
+  "notes": "Best used consistently in creams and emulsions, especially after acids or retinoids."
+},
+{
+  "id": "ingredient_hyaluronic_acid",
+  "type": "ingredient",
+  "title": "Hyaluronic acid and sodium hyaluronate",
+  "aliases": ["Hyaluronic acid", "Sodium hyaluronate", "Oligo-HA"],
+  "recommended_concentration": "0.1–2%",
+  "works_for": ["dehydration", "tightness", "fine_lines_due_to_dryness"],
+  "compatible_with": [
+    "almost all actives",
+    "vitamin C",
+    "retinoids",
+    "AHAs",
+    "BHAs",
+    "PHA",
+    "niacinamide",
+    "ceramides"
+  ],
+  "avoid_with_same_routine": [],
+  "text": "Hyaluronic acid and its salts are humectants that attract and hold water in the skin, helping it look plump and smooth. Multi-weight complexes can hydrate both the surface and deeper layers of the epidermis. They are useful in almost any routine and are especially helpful when using drying actives such as acids or retinoids.",
+  "notes": "Apply on slightly damp skin and seal with an emulsion or cream to prevent reverse dehydration in very dry climates."
+},
+{
+  "id": "ingredient_vitamin_c",
+  "type": "ingredient",
+  "title": "Vitamin C (Ascorbic acid and derivatives)",
+  "aliases": [
+    "Ascorbic acid",
+    "L-ascorbic acid",
+    "Ethyl ascorbic acid",
+    "Sodium ascorbyl phosphate",
+    "Magnesium ascorbyl phosphate"
+  ],
+  "recommended_concentration": "5–20% for ascorbic acid, 2–10% for many derivatives",
+  "works_for": ["pigmentation", "dullness", "photoaging", "fine_lines"],
+  "compatible_with": [
+    "SPF",
+    "niacinamide (for most skin types)",
+    "hyaluronic acid",
+    "panthenol",
+    "ceramides",
+    "peptides"
+  ],
+  "avoid_with_same_routine": [
+    "strong AHAs",
+    "strong BHAs",
+    "high-strength retinoids on sensitive skin"
+  ],
+  "text": "Vitamin C is a key antioxidant that brightens the skin, helps fade dark spots, supports collagen synthesis and protects from some free radical damage caused by UV and pollution. Pure ascorbic acid is potent but can be irritating at high concentrations and low pH, whereas derivatives are often gentler but may act more slowly.",
+  "notes": "Often used in the morning under sunscreen. Sensitive skin types may prefer derivatives and lower strengths."
+},
+{
+  "id": "ingredient_retinol",
+  "type": "ingredient",
+  "title": "Retinol and other cosmetic retinoids",
+  "aliases": [
+    "Retinol",
+    "Retinaldehyde",
+    "Retinyl palmitate",
+    "Hydroxypinacolone retinoate (HPR)"
+  ],
+  "recommended_concentration": "0.2–1% for retinol, lower for retinal and strong esters",
+  "works_for": ["wrinkles", "photoaging", "texture_irregularities", "post_acne"],
+  "compatible_with": [
+    "hyaluronic acid",
+    "ceramides",
+    "niacinamide",
+    "panthenol",
+    "peptides"
+  ],
+  "avoid_with_same_routine": [
+    "strong AHAs",
+    "strong BHAs",
+    "other intense exfoliants"
+  ],
+  "text": "Cosmetic retinoids such as retinol and retinal are among the most studied anti-aging ingredients. They increase cell turnover, stimulate collagen production and help smooth wrinkles and post-acne texture. However, they can cause dryness, peeling and irritation if introduced too quickly or combined with strong exfoliating acids.",
+  "notes": "Use only in the evening, 1–2 times a week to start, then increase as tolerated. Always pair with SPF in the daytime and barrier-supporting ingredients."
+},
+{
+  "id": "routine_oily_acne_18_25",
+  "type": "routine",
+  "title": "Simple routine for oily, acne-prone skin (18–25)",
+  "skin_type": ["oily", "combination", "acne_prone"],
+  "age_range": "18-25",
+  "steps": [
+    "Morning: cleanse with a gentle gel like NEEDLY Mild Cleansing Gel.",
+    "Apply a light hydrating toner such as Glow Lemon Vitamin Toner, focusing on areas with post-acne marks.",
+    "Use a niacinamide-based serum or emulsion (for example, 11Huesday Control Balancing Emulsion) to regulate sebum, support the barrier and fade marks.",
+    "Finish with a non-comedogenic sunscreen such as RAWQUEST Echinacea Airy Sun Stick SPF50+.",
+    "Evening: double cleanse on makeup or heavy SPF days using FREBITS Grind Vita Cleansing Balm followed by NEEDLY Mild Cleansing Gel.",
+    "2–3 evenings per week, add a BHA or gentle PHA/AHA toner (not included directly in this box, but similar to an exfoliating step) instead of Vitamin C ampoules.",
+    "On non-exfoliation nights, focus on hydrating and soothing products like FINDIVE PDRN Cica Exosome Serum and a light cream."
+  ],
+  "text": "The goal of this routine is to keep pores clear, control excess sebum and reduce post-acne marks without damaging the barrier. Strong acids and too many actives at once are avoided; instead, niacinamide, soothing ingredients and consistent SPF are prioritized."
+},
+{
+  "id": "routine_dry_sensitive_35plus",
+  "type": "routine",
+  "title": "Routine for dry, sensitive skin 35+ with focus on barrier and elasticity",
+  "skin_type": ["dry", "sensitive"],
+  "age_range": "35-55",
+  "steps": [
+    "Morning: cleanse very gently or just rinse with lukewarm water, using NEEDLY Mild Cleansing Gel only if needed.",
+    "Apply a hydrating toner in layers, such as Glow Lemon Vitamin Toner, focusing more on hydration than on exfoliation.",
+    "Use FINDIVE PDRN Cica Exosome Serum to support regeneration, reduce redness and strengthen the barrier.",
+    "Apply La Pianta Youth Enhance Eye Cream to address fine lines and dryness around the eyes.",
+    "Seal with Rebloom Luxury Aquvo Tension Cream, concentrating on drier areas like cheeks and around the mouth.",
+    "Finish with RAWQUEST Echinacea Airy Sun Stick SPF50+ PA++++ and reapply during the day.",
+    "Evening: use FREBITS Grind Vita Cleansing Balm to gently remove SPF and makeup.",
+    "Skip daily acids and instead use soothing or collagen-support masks (Feld Apotheke EcPorin Sheet Mask, Be'Balance Pro B5 or Salmon DA masks, or AROCELL Collagen Mask) 1–3 times a week.",
+    "Avoid introducing strong retinoids and multiple exfoliants at once; if you add them later, always buffer with ceramides, hyaluronic acid and panthenol."
+  ],
+  "text": "This routine prioritizes barrier repair, hydration and gentle firming over aggressive anti-aging. It is tailored to dry, sensitive skin that may react strongly to multiple actives, so exfoliation is very moderate and balanced with soothing and repairing care."
+}
+]
