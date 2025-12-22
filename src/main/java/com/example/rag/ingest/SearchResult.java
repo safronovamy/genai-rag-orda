@@ -29,4 +29,6 @@ public class SearchResult {
                 ", payload=" + payload +
                 '}';
     }
+
+
 }

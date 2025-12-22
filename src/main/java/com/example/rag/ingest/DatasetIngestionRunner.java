@@ -38,7 +38,7 @@ public class DatasetIngestionRunner {
         qdrantService.ensureCollection(COLLECTION_NAME);
         log.info("Collection {} is ready", COLLECTION_NAME);
 
-// 5. Generate embeddings
+        // 5. Generate embeddings
         List<List<Double>> embeddings = new ArrayList<>();
         for (SkincareDocument doc : docs) {
             String embeddingInput = buildEmbeddingText(doc);
@@ -48,7 +48,7 @@ public class DatasetIngestionRunner {
             embeddings.add(vector);
         }
 
-// 6. Build Qdrant points with numeric IDs
+        // 6. Build Qdrant points with numeric IDs
         List<QdrantPoint> points = new ArrayList<>();
 
         for (int i = 0; i < docs.size(); i++) {
@@ -63,7 +63,19 @@ public class DatasetIngestionRunner {
             payload.put("name", doc.getName());
             payload.put("brand", doc.getBrand());
             payload.put("category", doc.getCategory());
+            payload.put("step", doc.getStep());
+            payload.put("usage_time", doc.getUsageTime());
+            payload.put("removes_spf", doc.getRemovesSpf());
+            payload.put("source", doc.getSource());
+
             payload.put("text", doc.getText());
+            payload.put("how_to_use", doc.getHowToUse());
+
+            // Variant B fields
+            payload.put("about", doc.getAbout());
+            payload.put("ingredients", doc.getIngredients());
+            payload.put("composition", doc.getComposition());
+
             payload.put("skin_type", doc.getSkinType());
             payload.put("concerns", doc.getConcerns());
             payload.put("age_range", doc.getAgeRange());
@@ -72,7 +84,7 @@ public class DatasetIngestionRunner {
             points.add(new QdrantPoint(numericId, vector, payload));
         }
 
-// 7. Upsert to Qdrant
+        // 7. Upsert to Qdrant
         qdrantService.upsertBatch(COLLECTION_NAME, points);
         log.info("Ingestion completed successfully.");
     }
@@ -124,8 +136,23 @@ public class DatasetIngestionRunner {
         if (doc.getAgeRange() != null) {
             sb.append("Age range: ").append(doc.getAgeRange()).append("\n");
         }
-        if (doc.getText() != null) {
+
+        if (doc.getText() != null && !doc.getText().isBlank()) {
             sb.append("\n").append(doc.getText());
+        }
+
+        // Variant B: extend embedding input with new sections
+        if (doc.getAbout() != null && !doc.getAbout().isBlank()) {
+            sb.append("\n\nAbout:\n").append(doc.getAbout());
+        }
+        if (doc.getHowToUse() != null && !doc.getHowToUse().isBlank()) {
+            sb.append("\n\nHow to use:\n").append(doc.getHowToUse());
+        }
+        if (doc.getIngredients() != null && !doc.getIngredients().isBlank()) {
+            sb.append("\n\nIngredients:\n").append(doc.getIngredients());
+        }
+        if (doc.getComposition() != null && !doc.getComposition().isBlank()) {
+            sb.append("\n\nComposition:\n").append(doc.getComposition());
         }
 
         return sb.toString();

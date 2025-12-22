@@ -34,6 +34,7 @@ public class LlmClient {
     public String askWithContext(String systemPrompt, String userPrompt) throws Exception {
         ObjectNode root = objectMapper.createObjectNode();
         root.put("model", MODEL);
+        root.put("temperature", 0.0); // Make HyDE deterministic for stable retrieval evaluation
 
         ArrayNode messages = objectMapper.createArrayNode();
 
@@ -77,4 +78,61 @@ public class LlmClient {
 
         return contentNode.asText();
     }
+
+    /**
+     * Generate a retrieval-oriented "HyDE" note for semantic search.
+     * This text is used ONLY for embeddings and vector retrieval, not for the final answer.
+     */
+    public String generateHydeText(String userQuery) throws Exception {
+        String systemPrompt = """
+            You are a search query generator for a skincare product knowledge base.
+            Write a short retrieval-oriented search note using skincare terminology.
+            Do NOT recommend products. Do NOT invent facts. Do NOT mention datasets or boxes.
+            """;
+
+        String userPrompt = """
+            Convert the user request into a retrieval-oriented search note in English.
+            Requirements:
+            - 80–140 words
+            - Include: skin type (if mentioned), main concerns, sensitivities, age (if mentioned),
+              constraints (e.g., irritation, "no strong acids"), routine timing (AM/PM) if implied.
+            - Use skincare terminology (e.g., hyperpigmentation, barrier repair, comedogenic, exfoliation, retinoid).
+            - If info is missing, use generic placeholders like "unspecified skin type".
+            Output ONLY the search note text.
+
+            User request: %s
+            """.formatted(userQuery);
+
+        return askWithContext(systemPrompt, userPrompt);
+    }
+
+
+    /**
+     * Generate a step-back retrieval note (principle-level abstraction) for fallback retrieval.
+     * This text is used ONLY for embeddings and retrieval, not for the final answer.
+     */
+    public String generateStepBackText(String userQuery) throws Exception {
+        String systemPrompt = """
+            You are a retrieval query generator for a skincare RAG system.
+            Your task is to abstract the user's question into the underlying skincare principle(s),
+            such as active compatibility, irritation risk, frequency, routine ordering, cleansing rules, and SPF rules.
+            Keep the output concise (2-3 sentences). Do not mention datasets or internal systems.
+            Do not recommend products unless a product is explicitly mentioned by the user.
+            """;
+
+        String userPrompt = """
+            Rewrite the user's request into a short principle-focused retrieval note in English.
+            The goal is to retrieve general rules and ingredient guidance from the knowledge base.
+            Return ONLY the retrieval note.
+
+            User request:
+            %s
+            """.formatted(userQuery);
+
+        return askWithContext(systemPrompt, userPrompt);
+    }
+
+
+
+
 }
